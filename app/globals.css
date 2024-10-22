@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.cursor {
+  display: inline-block;
+  width: 10px; /* Adjust width to fit your design */
+  animation: blink 1s step-start infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
