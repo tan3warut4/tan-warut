@@ -3,7 +3,7 @@ import React from 'react'
 
 const Sidebar = () => {
     return (
-        <div className='bg-white h-screen shadow-lg flex flex-col items-center justify-center p-4 gap-5 sticky'>
+        <div className='w-[256px]   bg-white h-screen shadow-lg flex flex-col items-center justify-center p-4 gap-5 fixed'>
             <Image
             className='rounded-full'
                 src="/tan-images.jpeg"
